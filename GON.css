@@ -1,0 +1,690 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1,
+p {
+  margin: 0;
+  padding: 15px 15PX; 
+}
+h2,
+ {
+  padding: 15px 0; 
+} 
+  
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#banner {
+  height: 580px;
+  background-image: url("img/img3.jpg");
+  background-size: cover;
+}
+#banner .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#banner .text {
+  width: 50%;
+  text-align: right;
+}
+.text h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+
+}
+
+.my-slider {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background: url(img/header.jpg) no-repeat 50% 0 #162a65;
+  background-color: rgb(26, 159, 221);
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+}
+.main {
+  height: 100vh;
+  background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .nature {
+    height:300px;
+    background-image: url('http://images.gmanews.tv/webpics/2020/01/640_Black_Mamba_Forever_by_Celeste_Lecaroz_2020_01_28_18_06_11.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(107, 11, 197);
+} */
+.gradient {
+  height: 22px;
+}
+
+.parallax {
+  margin-top: 50px;
+  height: 350px;
+  width: 100%;
+  background-image: url("img/7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cerlak img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 450px;
+  object-fit: cover;
+  height: 420px;
+}
+.Text {
+  padding-top: 21px;
+}
+.kobe video {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 10px;
+}
+.way-img {
+  color: rgb(13, 2, 31);
+  font-size: 35px;
+  text-align: center;
+  font-style: oblique;
+  transition: 1s;
+}
+.way-img:hover {
+  color: black;
+}
+.way-img {
+  width: 100%;
+  height: 300px;
+  transition: 0.6s;
+}
+.way-img:hover {
+  transform: scale(1.2);
+  border-radius: 20%;
+}
+.kk {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  transition: 0.6s;
+  padding: 10px 10px;
+}
+.kk:hover {
+  background-color:rgb(113, 4, 202);
+}
+.flex-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px
+}
+.kk img {
+  width: 100%;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.WAYM:hover {
+  color: black;
+}
+.WAYM {
+  height: 400px;
+  width: 100%;
+  transition: 0.6s;
+  object-fit: contain;
+}
+.WAYM:hover {
+  transform: scale(1.1);
+  border-radius: 10%;
+}
+.MJ {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  transition: 0.6s;
+  padding: 10px 10px;
+  
+}
+.MJ:hover {
+  background-color:rgb(87, 0, 138);
+}
+.flex-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px
+}
+.MJ img {
+  width: 100%;
+}
+.Jordan {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 15px;
+}
+.Michel {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 6px 6px
+}
+.left {
+   float: left;
+   padding: 0 99px 20px 0;
+} 
+.right {
+  float: right;
+   padding: 0 20px 20px 0;
+}
+.KB-way video {
+  border: 5px solid rgb(50, 0, 100);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 15px;
+}
+.fan h1 {
+   /* float: right; */
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   padding: 15px 15px;
+}
+/* .fan-2 p {
+  float: ;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  
+} */
+font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+} 
+.mySlides {
+  text-align: center;
+}
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column1 {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 14px 0px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.DuAt {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container1 {
+  padding: 0 10px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 9px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(54, 21, 199);
+}
+
+@media screen and (max-width: 650px) {
+  .column1 {
+    width: 100%;
+    display: block;
+  }
+} 
+.Mamaba-1 video {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 15px; 
+  border: 4px solid rgb(49, 12, 211)
+} 
+.FF {
+  position: relative;
+  width: 50%;
+}
+
+.imageK {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.FF:hover .image {
+  opacity: 0.4;
+}
+
+.FF:hover .middle {
+  opacity: 1;
+}
+
+.text0 {
+  background-color: #4d2aeb;
+  color: white;
+  font-size: 16px;
+  padding: 45px 120px;
+}
+.FF {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.hh {
+  position: relative;
+  width: 50%;
+}
+
+.kartina {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.go {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #391cdb;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.hh:hover .go {
+  bottom: 0;
+  height: 100%;
+}
+
+.text-t {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.tt {
+  position: relative;
+  width: 50%;
+}
+
+.pio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.let {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #391cdb;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.tt:hover .let {
+  height: 100%;
+}
+
+.text-t1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hh {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.tt {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.cr {
+  position: relative;
+  width: 50%;
+}
+
+.im {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.jk {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #391cdb;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.cr:hover .jk {
+  width: 100%;
+  left: 0;
+}
+
+.text-pi {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.cont {
+  position: relative;
+  width: 50%;
+}
+
+.i {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ov {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #391cdb;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.cont:hover .ov {
+  width: 100%;
+}
+
+.text-ti {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.cr {
+  float: right;
+}
+.cont , .cr {
+  height: 451px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
